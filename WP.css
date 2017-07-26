@@ -1,0 +1,26 @@
+body {font-family:Arial;}
+
+.offline-ind {position:fixed;margin-top:0;right:2em;z-index:2;color:red;}
+
+.titles-div {position:absolute;width:40%;height:40%;background:lavender;}
+.titles-div__headers-select {width:100%;font-size:1.2em;font-weight:bold;margin-bottom:0.5em;}
+.titles-div__container {position:relative;height:90%;margin-right:0.2em;overflow:auto}
+
+.titles-div__li {margin-bottom:0.5em;color:navy;cursor:pointer;}
+.titles-div__li:hover {background:lightblue;}
+
+.titles-div__li_selected {background:yellow;}
+.titles-div__li_selected:hover {background:lime;}
+
+img {max-width:95%;}
+
+.main-img {position:absolute;top:55%;width:35%;}
+.main-img_hidden {display:none;}
+.main-img__photo {position:relative;max-width:90%;max-height:40%;}
+.main-img__author {font-size:0.7em;font-style:italic;}
+
+.content {position:absolute;left:43%;width:56%;height:90%;background:gainsboro;overflow:auto;}
+.content__title {text-align:center;color:navy;padding-left:1em;padding-right:1em;}
+.content__date-time {font-size:0.7em;font-style:italic;margin-left:1em;}
+.content__body {font-size:0.9em;padding-left:1em;padding-right:1em;}
+

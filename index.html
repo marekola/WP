@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl" manifest="WP.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" type="text/css" href="WP.css">
+    <title>wp.pl - najświeższe wiadomości</title>
+    <base target="_blank">
+  </head>
+
+  <body>
+
+  <p class="offline-ind"></p>  
+
+	<div class="titles-div">
+    <select class="titles-div__headers-select">
+      <option value="Wiadomosci">Wiadomości</option>
+      <option value="Gwiazdy">Gwiazdy i celebryci</option>
+      <option value="Tech">Nauka i technika</option>
+    </select>
+    <div class="titles-div__container">
+      <ul class="titles-div__titles-ul"></ul>
+    </div>    
+  </div>
+
+  <figure class="main-img main-img_hidden">
+     <img src="JavaScript:''" alt="" title="" class="main-img__photo">
+     <figcaption class="main-img__author"></figcaption>
+  </figure> 
+
+
+  <article class="content">
+    <h2 class="content__title"></h2>  
+    <p class="content__date-time"></p>
+    <div class="content__container">
+       <div class="content__body"></div>
+    </div>    
+  </article>
+
+  <script src="WP.js"></script>
+  </body>
+</html>
